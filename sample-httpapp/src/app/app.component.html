@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CHECK AND SHOP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1 align = "center">CHECK AND SHOP</h1>
+  <h2>Groceries</h2>
+  <h2>Sugar - Price/kg</h2>            
+  <table class="table table-striped">
+    <thead>
+      <tr>        
+        <th>COMPANY</th>
+        <th>PRICE</th>
+        <th>REVIEW</th>
+      </tr>
+    </thead>
+    <tbody>
+		<tr *ngFor = "let company of companies" >
+			<td>{{company.name}}</td>
+			<td>{{company.price}}</td>
+			<td>{{company.review}}</td>
+		</tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
+	

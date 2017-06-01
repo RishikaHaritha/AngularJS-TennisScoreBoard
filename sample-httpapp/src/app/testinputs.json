@@ -1,0 +1,27 @@
+[
+	{
+		"name" : "Mega More",
+		"price": "20",
+		"review" : "Good"
+	},
+	{
+		"name" : "Vijetha",
+		"price": "30",
+		"review" : "Average"
+	},
+	{
+		"name" : "Vision Fresh",
+		"price": "70",
+		"review" : "Good"
+	},
+	{
+		"name" : "Big Bazaar",
+		"price": "65",
+		"review" : "Modable!!"
+	},
+	{
+		"name" : "Ratnadeep",
+		"price": "80",
+		"review" : "Nice"
+	}
+]	
